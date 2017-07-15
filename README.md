@@ -1,1 +1,0 @@
-Just a quick shopping-cart app build during a react workshop (thumbsup)
