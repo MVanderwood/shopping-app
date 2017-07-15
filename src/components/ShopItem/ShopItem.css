@@ -1,0 +1,38 @@
+img {
+    padding-right: 10px;
+}
+
+.item {
+    display: flex;
+    padding-right: 20px;
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+}
+
+.item-header {
+    color: blue;
+    font-weight: 400;
+}
+
+.item-description {
+    display: flex;
+}
+
+.item-description div:first-child {
+    width: 50%;
+}
+
+.item ul{
+    font-size: 12px;
+    color: gray;
+}
+
+.rating {
+    color: gold;
+}
+
+button {
+    margin: 6px;
+    font-size: 13px;
+    padding: 3px;
+}
