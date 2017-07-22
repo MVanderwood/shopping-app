@@ -5,6 +5,7 @@ import fakeData from '../../fakeData';
 
 import ShopItem from '../ShopItem/ShopItem';
 import Cart from '../Cart/Cart';
+import SearchBar from '../SearchBar/SearchBar';
 
 class Shop extends Component {
     constructor() {
@@ -32,15 +33,18 @@ class Shop extends Component {
     render() {
         return (
             <div className="shop-container">
-                <div className="items-container">
-                    {
-                        this.state.items.map(item =>
-                            <ShopItem key={item.key} item={item}>{item.name} cartCallback={this.addToCart}</ShopItem>
-                        )
-                    }
-                </div>
-                <div className="cart-container">
-                    <Cart cart={this.state.cart}/>
+                <SearchBar cartSize={this.state.cart.length}/>
+                <div className="lower-shop-container">
+                    <div className="items-container">
+                        {
+                            this.state.items.map(item =>
+                                <ShopItem key={item.key} item={item}>{item.name} cartCallback={this.addToCart}</ShopItem>
+                            )
+                        }
+                    </div>
+                    <div className="cart-container">
+                        <Cart cart={this.state.cart}/>
+                    </div>
                 </div>
             </div>
         );

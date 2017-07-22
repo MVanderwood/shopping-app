@@ -1,0 +1,19 @@
+#search-bar-container {
+    background-color: darkslategray;
+    padding: 20px 0px 20px;
+}
+
+input {
+    width: 75%;
+    font-size: 18px;
+}
+
+i {
+    color: white;
+    padding: 5px;
+
+}
+
+span {
+    color: orangered;
+}
