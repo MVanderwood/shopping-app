@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Cart.css';
 
 class Cart extends Component {
     constructor(props) {
