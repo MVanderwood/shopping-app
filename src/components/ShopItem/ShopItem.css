@@ -31,8 +31,6 @@ img {
     color: gold;
 }
 
-button {
-    margin: 6px;
-    font-size: 13px;
-    padding: 3px;
+.fa-shopping-cart {
+    color: black;
 }

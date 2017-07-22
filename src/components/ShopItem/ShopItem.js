@@ -19,7 +19,7 @@ class ShopItem extends Component {
                         <div>
                             <p>${item.price}</p>
                             <p><small>only {item.stock} left in stock! - order soon</small></p>
-                            <button><i onClick={() => this.props.cartCallback(item)} className="fa fa-shopping-cart"></i> Add to cart</button>
+                            <button><i onClick={() => this.props.cartCallback(item)} className="fa fa-shopping-cart"></i> add to cart</button>
                         </div>
                         <div>
                             <Rating className="rating" empty="fa fa-star-o" full="fa fa-star" placeholder="fa fa-star" placeholderRate={item.star} readonly />
