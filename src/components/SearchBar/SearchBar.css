@@ -11,7 +11,10 @@ input {
 i {
     color: white;
     padding: 5px;
+}
 
+.fa-lg {
+    color: white;
 }
 
 span {
